@@ -1,0 +1,794 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Insider_Case_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Star",
+        "printedName": "Star",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "size",
+            "printedName": "size",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22Insider_Case_Framework4StarV4sizeSSvp",
+            "mangledName": "$s22Insider_Case_Framework4StarV4sizeSSvp",
+            "moduleName": "Insider_Case_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV4sizeSSvg",
+                "mangledName": "$s22Insider_Case_Framework4StarV4sizeSSvg",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV4sizeSSvs",
+                "mangledName": "$s22Insider_Case_Framework4StarV4sizeSSvs",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV4sizeSSvM",
+                "mangledName": "$s22Insider_Case_Framework4StarV4sizeSSvM",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "color",
+            "printedName": "color",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22Insider_Case_Framework4StarV5colorSSvp",
+            "mangledName": "$s22Insider_Case_Framework4StarV5colorSSvp",
+            "moduleName": "Insider_Case_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV5colorSSvg",
+                "mangledName": "$s22Insider_Case_Framework4StarV5colorSSvg",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV5colorSSvs",
+                "mangledName": "$s22Insider_Case_Framework4StarV5colorSSvs",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV5colorSSvM",
+                "mangledName": "$s22Insider_Case_Framework4StarV5colorSSvM",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "brightness",
+            "printedName": "brightness",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22Insider_Case_Framework4StarV10brightnessSSvp",
+            "mangledName": "$s22Insider_Case_Framework4StarV10brightnessSSvp",
+            "moduleName": "Insider_Case_Framework",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV10brightnessSSvg",
+                "mangledName": "$s22Insider_Case_Framework4StarV10brightnessSSvg",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV10brightnessSSvs",
+                "mangledName": "$s22Insider_Case_Framework4StarV10brightnessSSvs",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework4StarV10brightnessSSvM",
+                "mangledName": "$s22Insider_Case_Framework4StarV10brightnessSSvM",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(size:color:brightness:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Star",
+                "printedName": "Insider_Case_Framework.Star",
+                "usr": "s:22Insider_Case_Framework4StarV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22Insider_Case_Framework4StarV4size5color10brightnessACSS_S2Stcfc",
+            "mangledName": "$s22Insider_Case_Framework4StarV4size5color10brightnessACSS_S2Stcfc",
+            "moduleName": "Insider_Case_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Star",
+                "printedName": "Insider_Case_Framework.Star",
+                "usr": "s:22Insider_Case_Framework4StarV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22Insider_Case_Framework4StarV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s22Insider_Case_Framework4StarV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "Insider_Case_Framework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework4StarV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s22Insider_Case_Framework4StarV6encode2toys7Encoder_p_tKF",
+            "moduleName": "Insider_Case_Framework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:22Insider_Case_Framework4StarV",
+        "mangledName": "$s22Insider_Case_Framework4StarV",
+        "moduleName": "Insider_Case_Framework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "Insider_Case_Framework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StarsViewModelDelegate",
+        "printedName": "StarsViewModelDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didUpdateStarCount",
+            "printedName": "didUpdateStarCount(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework22StarsViewModelDelegateP18didUpdateStarCount2toySi_tF",
+            "mangledName": "$s22Insider_Case_Framework22StarsViewModelDelegateP18didUpdateStarCount2toySi_tF",
+            "moduleName": "Insider_Case_Framework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Insider_Case_Framework.StarsViewModelDelegate>",
+            "sugared_genericSig": "<Self where Self : Insider_Case_Framework.StarsViewModelDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveAlert",
+            "printedName": "didReceiveAlert(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework22StarsViewModelDelegateP15didReceiveAlert7messageySS_tF",
+            "mangledName": "$s22Insider_Case_Framework22StarsViewModelDelegateP15didReceiveAlert7messageySS_tF",
+            "moduleName": "Insider_Case_Framework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Insider_Case_Framework.StarsViewModelDelegate>",
+            "sugared_genericSig": "<Self where Self : Insider_Case_Framework.StarsViewModelDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didUpdateStarsList",
+            "printedName": "didUpdateStarsList()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework22StarsViewModelDelegateP09didUpdateD4ListyyF",
+            "mangledName": "$s22Insider_Case_Framework22StarsViewModelDelegateP09didUpdateD4ListyyF",
+            "moduleName": "Insider_Case_Framework",
+            "genericSig": "<τ_0_0 where τ_0_0 : Insider_Case_Framework.StarsViewModelDelegate>",
+            "sugared_genericSig": "<Self where Self : Insider_Case_Framework.StarsViewModelDelegate>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:22Insider_Case_Framework22StarsViewModelDelegateP",
+        "mangledName": "$s22Insider_Case_Framework22StarsViewModelDelegateP",
+        "moduleName": "Insider_Case_Framework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StarsViewModel",
+        "printedName": "StarsViewModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any Insider_Case_Framework.StarsViewModelDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelC8delegateAA0deF8Delegate_pSgvp",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelC8delegateAA0deF8Delegate_pSgvp",
+            "moduleName": "Insider_Case_Framework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Insider_Case_Framework.StarsViewModelDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StarsViewModelDelegate",
+                        "printedName": "any Insider_Case_Framework.StarsViewModelDelegate",
+                        "usr": "s:22Insider_Case_Framework22StarsViewModelDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework14StarsViewModelC8delegateAA0deF8Delegate_pSgvg",
+                "mangledName": "$s22Insider_Case_Framework14StarsViewModelC8delegateAA0deF8Delegate_pSgvg",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any Insider_Case_Framework.StarsViewModelDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "StarsViewModelDelegate",
+                        "printedName": "any Insider_Case_Framework.StarsViewModelDelegate",
+                        "usr": "s:22Insider_Case_Framework22StarsViewModelDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework14StarsViewModelC8delegateAA0deF8Delegate_pSgvs",
+                "mangledName": "$s22Insider_Case_Framework14StarsViewModelC8delegateAA0deF8Delegate_pSgvs",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:22Insider_Case_Framework14StarsViewModelC8delegateAA0deF8Delegate_pSgvM",
+                "mangledName": "$s22Insider_Case_Framework14StarsViewModelC8delegateAA0deF8Delegate_pSgvM",
+                "moduleName": "Insider_Case_Framework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StarsViewModel",
+                "printedName": "Insider_Case_Framework.StarsViewModel",
+                "usr": "s:22Insider_Case_Framework14StarsViewModelC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelCACycfc",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelCACycfc",
+            "moduleName": "Insider_Case_Framework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "addStarInterface",
+            "printedName": "addStarInterface(size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelC16addStarInterface4sizeySS_tF",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelC16addStarInterface4sizeySS_tF",
+            "moduleName": "Insider_Case_Framework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resetStars",
+            "printedName": "resetStars()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelC05resetD0yyF",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelC05resetD0yyF",
+            "moduleName": "Insider_Case_Framework",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStarCount",
+            "printedName": "getStarCount()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelC12getStarCountSiyF",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelC12getStarCountSiyF",
+            "moduleName": "Insider_Case_Framework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getStarDetails",
+            "printedName": "getStarDetails(at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Insider_Case_Framework.Star?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Star",
+                    "printedName": "Insider_Case_Framework.Star",
+                    "usr": "s:22Insider_Case_Framework4StarV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelC14getStarDetails2atAA0H0VSgSi_tF",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelC14getStarDetails2atAA0H0VSgSi_tF",
+            "moduleName": "Insider_Case_Framework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "printStars",
+            "printedName": "printStars()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelC05printD0yyF",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelC05printD0yyF",
+            "moduleName": "Insider_Case_Framework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "saveStars",
+            "printedName": "saveStars()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelC04saveD0yyF",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelC04saveD0yyF",
+            "moduleName": "Insider_Case_Framework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loadStars",
+            "printedName": "loadStars()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:22Insider_Case_Framework14StarsViewModelC04loadD0yyF",
+            "mangledName": "$s22Insider_Case_Framework14StarsViewModelC04loadD0yyF",
+            "moduleName": "Insider_Case_Framework",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:22Insider_Case_Framework14StarsViewModelC",
+        "mangledName": "$s22Insider_Case_Framework14StarsViewModelC",
+        "moduleName": "Insider_Case_Framework",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

@@ -1,0 +1,6 @@
+framework module Insider_Case_Framework {
+  umbrella header "Insider_Case_Framework.h"
+  export *
+
+  module * { export * }
+}
