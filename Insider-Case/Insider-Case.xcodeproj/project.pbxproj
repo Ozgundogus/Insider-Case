@@ -12,8 +12,8 @@
 		0CD93C0F2BA5B0760006F5EC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CD93C0E2BA5B0760006F5EC /* HomeViewController.swift */; };
 		0CD93C142BA5B0770006F5EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CD93C132BA5B0770006F5EC /* Assets.xcassets */; };
 		0CD93C172BA5B0770006F5EC /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 0CD93C162BA5B0770006F5EC /* Base */; };
-		0CF083EB2BA62CFC006A2CF2 /* Insider_Case_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF083E92BA62BD6006A2CF2 /* Insider_Case_Framework.framework */; };
-		0CF083EC2BA62CFC006A2CF2 /* Insider_Case_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF083E92BA62BD6006A2CF2 /* Insider_Case_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		0CF083EF2BA63D44006A2CF2 /* Insider_Case_Framework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF083ED2BA63D31006A2CF2 /* Insider_Case_Framework.framework */; };
+		0CF083F02BA63D44006A2CF2 /* Insider_Case_Framework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF083ED2BA63D31006A2CF2 /* Insider_Case_Framework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				0CF083EC2BA62CFC006A2CF2 /* Insider_Case_Framework.framework in Embed Frameworks */,
+				0CF083F02BA63D44006A2CF2 /* Insider_Case_Framework.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -38,7 +38,7 @@
 		0CD93C132BA5B0770006F5EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CD93C162BA5B0770006F5EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CD93C182BA5B0770006F5EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0CF083E92BA62BD6006A2CF2 /* Insider_Case_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Insider_Case_Framework.framework; sourceTree = "<group>"; };
+		0CF083ED2BA63D31006A2CF2 /* Insider_Case_Framework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Insider_Case_Framework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF083EB2BA62CFC006A2CF2 /* Insider_Case_Framework.framework in Frameworks */,
+				0CF083EF2BA63D44006A2CF2 /* Insider_Case_Framework.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,7 +72,7 @@
 		0CD93C092BA5B0760006F5EC /* Insider-Case */ = {
 			isa = PBXGroup;
 			children = (
-				0CF083E92BA62BD6006A2CF2 /* Insider_Case_Framework.framework */,
+				0CF083ED2BA63D31006A2CF2 /* Insider_Case_Framework.framework */,
 				0CD93C0A2BA5B0760006F5EC /* AppDelegate.swift */,
 				0CD93C0C2BA5B0760006F5EC /* SceneDelegate.swift */,
 				0CD93C0E2BA5B0760006F5EC /* HomeViewController.swift */,
